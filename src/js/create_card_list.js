@@ -6,4 +6,4 @@ const refs = {
   cards: document.querySelector('#menu'),
 };
 
-refs.cards.innerHTML(menuMarkup);
+refs.cards.innerHTML = menuMarkup;
